@@ -18,11 +18,17 @@ ui <- fluidPage(
     
     sidebarLayout(
         sidebarPanel(
+            
+            #sliderInput("date_range", 
+                        #"Choose Date Range:", 
+                        #min = as.Date("2016-02-01"), max = Sys.Date(), 
+                        #value = c(as.Date("2016-02-25"), Sys.Date())
+            #)
             sliderInput("range", 
                         label = "Choose a start and end year:",
                         min = df$Date[1], 
                         max = df$Date[nrow(df)], 
-                        value = c(df$Date[1], df$Date[nrow(df)]),sep = "",)
+                        value = c(df$Date[1], df$Date[nrow(df)]))
         ),
         
         mainPanel(
