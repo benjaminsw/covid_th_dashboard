@@ -1,0 +1,12 @@
+name: covid_th
+title: covid_th
+username:
+account: benjamin-wiriyapong
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3464452
+bundleId: 4085823
+url: https://benjamin-wiriyapong.shinyapps.io/covid_th/
+when: 1610448863.48995
+asMultiple: FALSE
+asStatic: FALSE
