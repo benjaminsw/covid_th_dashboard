@@ -1,5 +1,12 @@
-if (!require("pacman")) install.packages("pacman")
-pacman::p_load(shiny, httr, jsonlite)
+#if (!require("pacman")) install.packages("pacman")
+#pacman::p_load(shiny, httr, jsonlite, dygraphs, dygraphs, xts)
+library(shiny)
+library(httr)
+library(jsonlite)
+library(dygraphs)
+library(dygraphs)
+library(xts)
+
 
 # read data
 res <- GET("https://covid19.th-stat.com/api/open/timeline")
